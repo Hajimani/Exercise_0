@@ -56,9 +56,14 @@ The following classes have been implemented:
 <td>
 
 ## How Pooling Layer works
+## Forward pass
 * The snapshot below (taken from http://cs231n.github.io/convolutional-networks/) shows the forward pass of Pooling (i.e., max pooling) layer class
 <td>
 <img src="images\max_pool_fp.png">
 <td>
 
 * For average pooling, instead of max function, we would use average function on each sliding window
+## Backward pass
+As explained earlier:
+* For max pooling, within each sliding window, only the max element is going to be updated by the corresponding gradient that has been received from the next layer. 
+* For average pooling, within each sliding window, the corresponding gradient that has been received from the next layer is going to be distributed equally.
