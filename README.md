@@ -12,3 +12,11 @@
 * Optimization on critical operations to improve performance using Cython
 ## Usage
 * Use MNIST dataset to provide some usage examples with images
+
+## Solution
+
+The following classes have been implemented:
+* Data Visualization - which shows random images from the MNIST data set in an m*n grid
+* Load Data - reads images from the provided input path and constructs Training and Test sets with the option to specify the percentage for train and test subsets (70%, 30% by default)
+* Convolution Layer - accepts a batch of images and convolve them based on the defined filter, bias, padding and stride and activation function. The "RELU" is already implemented as activation function but we could simply add "Sigmoid" and "tanh" as well. The 
+
