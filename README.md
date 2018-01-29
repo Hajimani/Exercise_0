@@ -60,4 +60,5 @@ The following classes have been implemented:
 <td>
 <img src="images\max_pool_fp.png">
 <td>
+
 * For average pooling, instead of max function, we would use average function on each sliding window
