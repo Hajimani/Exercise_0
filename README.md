@@ -22,7 +22,7 @@ The following classes have been implemented:
 * Pool Layer - Accepts a batch of images that are already convolved by a previous convolution layer together with the window size for pooling, pooling method(average or max) and stride and do the pooling. The "backward_pass" function of this class back propagates the gradients through the pooling layer in order to be able to compute the gradients of the layers that are located before the current pooling layer. For max pooling, within each sliding window, only the max element is going to be updated by the corresponding gradient that has been received from the next layer. For average pooling, within each sliding window, the corresponding gradient that has been received from the next layer is going to be distributed equally.
 * Fully Connected Layer - is adding a fully connected layer of n nodes. To implement this class, I used the class that I implemented for Convolution Layer considering each fully connected node as a filter with the size of the previous layer.
 * Softmax Layer - is using the softmax formula to be able to interprete the output as the probability of each class
-* Optimization Layer (Not Completed) - 
+* Optimization Layer (Not Completed) - The cross entropy loss and cost functions have been implemented till now.
 
 ## How Convolution Layer works
 ### Forward Pass
