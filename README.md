@@ -24,7 +24,7 @@ The following classes have been implemented:
 * Softmax Layer - is using the softmax formula to be able to interprete the output as the probability of each class
 * Optimization Layer (Not Completed) - The cross entropy loss and cost functions have been implemented till now.
 ## Time spent on each part
-* Review CNN and understanding the details of the backward passes in convolution and pooling layer: 8 hours
+* Review CNN and understanding the details of the backward passes in convolution and pooling layers: 8 hours
 * Creating Github account, implementing data visualization, load data and the forward pass functions of convolution and pooling layers: 12 hours
 * implementing the backward passes of convolution and pooling layers, writing fully connected layer, softmax, cost and los functions: 12 hours (i.e., the majority of time has been spent on backward implementation and test)
 * Cleaning the code, wrapping functions into classes, writing the documentaion: 8 hours
