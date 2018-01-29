@@ -54,3 +54,9 @@ The following classes have been implemented:
 <td>
 <img src="images\bp7.jpeg">
 <td>
+
+## How Pooling Layer works
+* The snapshot below (taken from http://cs231n.github.io/convolutional-networks/) could shows the forward pass of Pooling (i.e., max pooling) layer class
+<td>
+<img src="images\max_pool_fp.png">
+<td>
