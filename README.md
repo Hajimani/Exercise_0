@@ -23,6 +23,11 @@ The following classes have been implemented:
 * Fully Connected Layer - is adding a fully connected layer of n nodes. To implement this class, I used the class that I implemented for Convolution Layer considering each fully connected node as a filter with the size of the previous layer.
 * Softmax Layer - is using the softmax formula to be able to interprete the output as the probability of each class
 * Optimization Layer (Not Completed) - The cross entropy loss and cost functions have been implemented till now.
+## Time spent on each part
+* Review CNN and understanding the details of the backward passes in convolution and pooling layer: 8 hours
+* Creating Github account, implementing data visualization, load data and the forward pass functions of convolution and pooling layers: 12 hours
+* implementing the backward passes of convolution and pooling layers, writing fully connected layer, softmax, cost and los functions: 12 hours (i.e., the majority of time has been spent on backward implementation and test)
+* Cleaning the code, wrapping functions into classes, writing the documentaion: 8 hours
 
 ## How Convolution Layer works
 ### Forward Pass
