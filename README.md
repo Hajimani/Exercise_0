@@ -30,7 +30,7 @@ The following classes have been implemented:
 <td>
 <img src="images\CNN_conv.png">
 <td>
-* For average pooling, instead of max function, we would use average function on each sliding window
+
 ### Backward Pass
  * The snapshots below (i.e., taken from https://medium.com/@2017csm1006/forward-and-backpropagation-in-convolutional-neural-network-4dfa96d7b37e) show how to calculate gradients with respect to weights and inputs in the back propagation process:
 <td>
@@ -60,3 +60,4 @@ The following classes have been implemented:
 <td>
 <img src="images\max_pool_fp.png">
 <td>
+* For average pooling, instead of max function, we would use average function on each sliding window
