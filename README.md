@@ -25,10 +25,13 @@ The following classes have been implemented:
 * Optimization Layer (Not Completed) - 
 
 ## How Convolution Layer works
+### Forward Pass
 * The snapshot below (taken from http://cs231n.github.io/convolutional-networks/) could show the forward pass of convolution layer class
 <td>
 <img src="images\CNN_conv.png">
 <td>
+  
+### Backward Pass
  * The snapshots below (i.e., taken from https://medium.com/@2017csm1006/forward-and-backpropagation-in-convolutional-neural-network-4dfa96d7b37e) show how to calculate gradients with respect to weights and inputs in the back propagation process:
 <td>
 <img src="images\bp1.jpeg">
